@@ -81,3 +81,152 @@ While initialization and access are typically done using syntax in C++, the conc
 * **Fixed Size:** Cannot be resized dynamically (unless allocated on the heap).
 * **Lack of Safety:** No bounds checking in C++, which can lead to undefined behavior if accessed out of range.
 * **Limited Functionality:** Arrays lack the rich feature set provided by higher-level containers like `std::vector`.
+* ## 1. Algorithm: Searching an element from the array
+
+### Step 1:
+
+Start the program.
+
+### Step 2:
+
+Declare an integer variable n to store the number of elements.
+
+### Step 3:
+
+Prompt the user to input the number of elements and read the value into n.
+
+### Step 4:
+
+Declare an integer array arr[n].
+
+### Step 5:
+
+Use a loop to input n elements into the array.
+
+### Step 6:
+
+Display the entered array elements using a loop.
+
+### Step 7:
+
+Ask the user to enter the element to be searched and store it in a variable called search.
+
+### Step 8:
+
+Initialize a boolean flag found = false.
+
+### Step 9:
+
+Use a for loop to iterate through the array:
+
+- If arr[i] == search, display the index where it was found.
+
+- Set found = true and break the loop.
+
+### Step 10:
+
+After the loop, if found == false, display "Element not found."
+
+### Step 11:
+
+End the program.
+
+## 2. Algorithm: Reversing an given array
+
+### Step 1:
+
+Start
+
+### Step 2: 
+
+Read the size of the array n.
+
+### Step 3: 
+
+Create an array numbers of size n.
+
+### Step 4: 
+
+For i from 0 to n-1:
+
+- Read the element numbers[i].
+
+### Step 5: 
+
+For j from n-1 down to 0:
+
+- Print the element numbers[j].
+
+### Step 6: 
+
+End the program.
+
+## 3. Algorithm: Concatenation of two strings
+
+### Step 1:
+
+Start
+
+### Step 2:
+
+Read string a.
+
+### Step 3: 
+
+Read string b.
+
+### Step 4:
+
+Concatenate string b to the end of string a.
+
+### Step 5:
+
+Print the concatenated string a + b.
+
+### Step 6:
+
+End the program.
+
+## 4. Algorithm: Checking if the given string is palindrome or not
+
+### Step 1:
+
+Start
+
+### Step 2:
+
+Read the string a.
+
+### Step 3:
+
+Initialize a boolean variable isPalindrome to true.
+
+### Step 4:
+
+Calculate the length of the string, n = length of a.
+
+### Step 5:
+
+For i from 0 to n/2 - 1 (check till the middle of the string):
+
+- If a[i] is not equal to a[n-1-i]:
+
+- Set isPalindrome to false.
+
+- Break out of the loop.
+
+### Step 6:
+
+If isPalindrome is true:
+
+- Print "a is a Palindrome".
+
+### Step 7:
+
+Else:
+
+- Print "a is not a Palindrome".
+
+### Step 8:
+
+End the program.
